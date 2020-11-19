@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+        .main {
+            border: 1px solid grey;
+            /* transform: translate(600px, 200px);
+             transform: rotate(45deg); 
+            transform: skew(45deg);
+            transform: scale(0.5); */
+            width: 400px;
+            
+        }
+        .main1 {
+            border: 1px solid grey;
+            width: 400px;
+            background-color: green;
+        }
+        li {
+            display: inline-block;
+            
+            margin-right: 30px;
+        }
+        .menu-item {
+            font-size: 22px;
+            transition: font-size 5s;
+            line-height: 160px;
+            padding: 40px;
+        }
+        .menu-item:hover {
+            font-size: 48px;
+        }
+        .bars {
+            position: absolute;
+            width: 300px;
+            border: 1px solid grey;
+            left: -250px;
+            margin-bottom: 10px;
+            transition: left 3s;;
+        }
+        .bars:hover {
+            left: 0px;
+        }
+        .fst {
+            background-color: red;
+            top: 200px;
+        }
+        .scnd {
+            background-color: yellow;
+            top: 240px;
+        }
+        .third {
+            background-color: green;
+            top: 280px;
+        }
+        .container {
+            width: 960px;
+            margin: 0 auto;
+            border-left: 1px solid grey;
+            border-right: 1px solid grey;
+            position: relative;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, explicabo magnam. Rerum doloremque iste ullam corporis, nulla amet explicabo deleniti tenetur. Rem, nisi cupiditate. Alias esse aliquam neque aspernatur tempore!
+        </div>
+        <div class="main1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nemo libero dignissimos quam voluptates, veniam velit nihil soluta sit illum animi aut enim possimus maxime delectus repellendus in rem sint!
+        </div>
+        <ul>
+            <li><a class="menu-item" href="#">item1</a></li>
+            <li><a class="menu-item" href="#">item2</a></li>
+            <li><a class="menu-item" href="#">item3</a></li>
+            <li><a class="menu-item" href="#">item4</a></li>
+            <li><a class="menu-item" href="#">item5</a></li>
+        </ul>
+        <div class="bars fst">text1</div>
+        <div class="bars scnd">text2</div>
+        <div class="bars third">text3</div>
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem saepe sequi facilis suscipit iure ducimus adipisci, impedit similique nam ipsa repellat modi qui minima aliquid! Magnam dicta molestias iste!</div>
+    </div>   
+    <script>
+
+        let a = 36;
+        let b = 47.9;
+        let s = 'hello world';
+
+        let b1 = true; // 1
+        let b2 = false; // 0
+        let a = [4,6,8,9];
+        let s = ['simple', 'string'];
+        if (x > 5)
+            console.log('aaaa');
+        
+        while(x <5) {
+            x =  x + 1;
+            console.log(x);
+        }
+
+        for(let i = 0; i < 5; i++)
+            console.log(i);
+
+
+        let a = [ 'John', 25, 'FE Developer'];
+        let b = [ 'Steve', 36, 'Back-end Dveloper'];
+        a[0]
+        let o1 = { name : 'John', age : 25, job : 'FE Developer' }
+        o1.name
+        o1['name']
+        for (let i in o1 ) {
+            console.log(i, o1[i]);
+        }
+
+
+        let i2; // undefined
+        console.log(i2);
+        i2 = 0;
+
+        let b5 = null;
+        s = typeof b5;
+
+        // Типы данных в Javascript
+        // Простые
+        // 1) Число
+        // 2) Строка
+        // 3) Булевый тип
+        // 4) undefined
+        // 5) null
+        // и объекты
+
+
+
+    </script>
+</body>
+</html>
